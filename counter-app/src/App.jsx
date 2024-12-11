@@ -5,13 +5,19 @@ function App(){
   let [counter , setCounter] = useState(0)
 
   const addValue = () =>{
-    counter = counter + 1 ;
+    if(counter>= 20){} 
+    else{
+      counter = counter + 1 ;
+    }
     setCounter(counter);
 
   }
 
   const decValue = () => {
-    counter = counter - 1;
+    if(counter <= 0){}
+    else{
+      counter = counter - 1;
+    }
     setCounter(counter);
   }
 
