@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+body{
+    background-color: #f8ffff;
+    color: white;
+    font-family: "Satoshi";
+}
